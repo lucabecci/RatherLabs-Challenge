@@ -45,7 +45,7 @@ function Trivia(props) {
   }
   return (
     <Fragment>
-      <Container maxWidth='sm'>
+      <Container maxWidth='xl'>
       <Typography variant="h5" align='center' gutterBottom>
         {props.questions[currentQuestion].text}
       </Typography>
